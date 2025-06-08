@@ -1,0 +1,42 @@
+#parcel
+-Dev build
+-Local Server
+-HMR = Hot Module Replacement iska mtlb jab code mein kuchh change karte hai toh ye turant save ho jata hai
+-HMR happan because (parcel)of File Watching Algorithm -that written in C++
+-cache - Faster build
+-image opatimization
+-Minification of the file also 
+-Bundling of the file also
+-Compress the file also
+-Consistent Hashing (read aabout it )
+-Code splitting
+-Differential Bundling (give support of older browser also <script type="module"></script>)
+-Diagnostic beautiful error here
+-Good error and beautiful
+-Help to host on HTTPS
+-Tree Shaking (anlyze the import and export of each module ,and removes unused code everything that isn't used)
+-lazy mode also if you type [--lazy] it load in lazy mode
+-Different dev and productin Bundles(development build and productin build is really different for 
+for dev run in terminal npm start 
+for productin build run in terminal npx parcel build index.html that make a different dist file )
+
+
+
+component compositon mtlb ak component ke ander dusra component jisse ak hi render hota hai ant mein so jaise ak pura page hai page ke nam par maine ak file banaya usme sara kuchh parent vala propety dal diya so then dusra file banaya jiska nam nav hai toh nav ko toh nav vale file mein banayeinge aur page vale parent ko ham usmein dal denge like this <nav/> ishi tarike se nav ke bad content aur fir footer toh in sabki file alag alag banegi but jo call hota vo parent mein hoga kyuki rendr ak ki attribute hota hai.
+
+
+
+#react Hooks
+(Normal JS utility function)
+
+-useState() -- superPower state variable in react
+
+# Normal variable ---let Balmiki;😢
+# superPower variable ---- let [Balmiki] = useState(); 😁🐱‍🏍
+let [Balmiki, setBalmiki] = useState(); 
+
+whenever state  variable update  React rerender the component
+
+
+
+-useEffect()

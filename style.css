@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: brown; */
+}
+
+.Search {
+  background-color: rgb(199, 162, 116);
+  height: 10vh;
+  /* width: 10vw; */
+  /* padding: 5vw; */
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Search button {
+  /* overflow: hidden; */
+}
+.headH {
+  width: 100%;
+  height: 6vh;
+  border: 2px solid black;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ull {
+  list-style-type: none;
+  display: flex;
+  /* background-color: aqua; */
+  gap: 4px;
+  background-color: blueviolet;
+}
+
+.ull li {
+  /* background-color: blue; */
+  /* gap: 5px; */
+  padding: 5px;
+  font-size: 1rem;
+  /* overflow: hidden; */
+  transition: 0.4s ease;
+  background-color: blueviolet;
+}
+.ull li:hover {
+  /* border: 1px solid black; */
+  background-color: rgb(238, 238, 238);
+}
+.cart {
+  /* background-color: blueviolet; */
+  width: fit-content;
+  border: 1px solid black;
+  padding: 5px;
+  /* text-align: center; */
+  overflow: hidden;
+  margin: 4px;
+  transition: 0.3s ease;
+  position: relative;
+  background-color: blueviolet;
+}
+.cart:hover {
+  transform: scale(1.1);
+}
+.img {
+  font-size: 1rem;
+  text-align: center;
+}
+.img img {
+  width: 150px;
+  border-radius: 5px;
+}
+.item {
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+}
+.name {
+  max-width: 160px;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  white-space: wrap;
+  display: inline-block;
+  vertical-align: top;
+}
+.item ul li {
+  list-style-type: none;
+  margin: 5px;
+  /* background-color: rgb(131, 103, 156); */
+}
+.cartPapa {
+  display: flex;
+  /* background-color: rgb(14, 211, 145); */
+}
+
+.res-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: blueviolet; */
+}
+.shimmer-conrainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  width: 100px;
+  height: 100px;
+  background-color: aliceblue;
+}
+.login {
+  padding: 4px;
+  cursor: pointer;
+}
